@@ -1,17 +1,29 @@
 import './App.css';
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
+import Home from './Pages/Home.jsx';
+import Navbar from './Pages/Navbar/Navbar.jsx'
+import LoginPage from './LoginPage/LoginPage.jsx';
+import AdminPanel from './AdminPanel/AdminPanel.jsx'
+import WorkAdmin from './AdminPanel/Work-Admin.jsx'
+import ClientAdmin from './AdminPanel/Clients-Admin.jsx'
+import TestimonialAdmin from './AdminPanel/Testimonials-Admin.jsx'
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <>
-    {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-
-    <Navbar/>
-    <Hero/>
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Login" element={<LoginPage />} />
+          <Route exact path="/AdminPanel" element={<AdminPanel />} />
+          <Route exact path="/Work" element={<WorkAdmin />} />
+          <Route exact path="/Clients" element={<ClientAdmin />} />
+          <Route exact path="/Testimonials" element={<TestimonialAdmin />} />
+        </Routes>
+      </Router>
     </>
   );
 }
