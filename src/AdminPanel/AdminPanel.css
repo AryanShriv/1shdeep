@@ -1,8 +1,3 @@
-body{
-    background-color: cornsilk;
-    overflow: hidden;
-}
-
 .all {
     display: flex;
     perspective: 10px;

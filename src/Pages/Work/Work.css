@@ -1,0 +1,117 @@
+#work {
+    padding-bottom: 0;
+    background-color: #1a202c;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-style {
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+}
+
+.main-title {
+
+
+    margin-bottom: 30px;
+}
+
+.main-title h5 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.main-title h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+#js-filters-mosaic-flat {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cbp-l-filters-alignCenter {
+    display: inline-block;
+}
+
+.cbp-filter-item {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cbp-filter-item:hover {
+    color: #f1c30f;
+}
+
+.cbp-filter-item-active {
+    font-weight: bold;
+}
+
+#js-grid-mosaic-flat {
+    position: relative;
+    overflow: hidden;
+}
+
+.cbp {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.cbp-item {
+    width: calc(25% - 30px);
+    margin: 0 15px 30px;
+    transition: transform 0.5s ease;
+}
+
+.cbp-item a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cbp-item img {
+    width: 100%;
+    height: auto;
+}
+
+.cbp-caption-defaultWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.cbp-l-caption-alignCenter {
+    text-align: center;
+}
+
+.cbp-l-caption-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cbp-filter-item-active {
+    font-weight: bold;
+}

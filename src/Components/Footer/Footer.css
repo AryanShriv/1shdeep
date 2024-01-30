@@ -1,0 +1,13 @@
+/* Footer styling */
+.footer {
+    background-color: #202020;
+    padding: 6vh 0;
+    color: white;
+}
+
+/* Footer content styling */
+.footerContent {
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: center;
+}

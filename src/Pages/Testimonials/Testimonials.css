@@ -1,0 +1,118 @@
+.testimonials {
+    /* Backgroud */
+    background: url("../../Assets/Testimonials/parallax2.png");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading span {
+    color: #18d26e;
+}
+
+.feedback {
+    position: relative;
+    background-color: #202020;
+    border-radius: 12px;
+    width: 35%;
+    padding: 10vh 2vw;
+    margin-top: 7vh;
+}
+
+.apostrophy {
+    position: absolute;
+    font-size: 5vh;
+    top: 3.5vh;
+    margin-right: 1vw;
+}
+
+.feedback p {
+    font-size: 1.1vw;
+    line-height: 3.5vh;
+}
+
+.feedback h5 {
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+
+/* SaidBy */
+.saidBy {
+    margin-top: 3.5vh;
+}
+
+.saidBy img {
+    width: 5vw;
+    position: relative;
+}
+
+.saidBy h5 {
+    margin: 0;
+    margin-right: 4vw;
+    position: relative;
+    top: -1vh;
+    color: #fff;
+}
+
+/* Media queries for tablet */
+@media (min-width: 768px) and(max-width:800px) {
+    .feedback {
+        width: 60%;
+        padding: 5vh 2vw;
+    }
+
+    .apostrophy {
+        font-size: 4vh;
+    }
+
+    .feedback p {
+        font-size: 1.2vw;
+    }
+
+    .saidBy img {
+        width: 15vw;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .heading {
+        font-size: 10vw;
+    }
+
+    .feedback {
+        width: 90%;
+        padding: 5vh 3vw;
+        padding-top: 8vh;
+    }
+
+    .apostrophy {
+        font-size: 4vh;
+        top: 3.5vh;
+        margin-right: 1vw;
+    }
+
+    .feedback p {
+        font-size: 4vw;
+    }
+
+    .saidBy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5vh;
+    }
+
+    .saidBy img {
+        width: 20vw;
+    }
+
+    .saidBy h5 {
+        font-size: 5vw;
+    }
+}

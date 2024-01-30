@@ -1,9 +1,0 @@
-nav{
-    position: sticky;
-    top: 0;
-    background-color: #202020;
-}
-
-nav li a:hover{
-    color: #f1c30f;
-}

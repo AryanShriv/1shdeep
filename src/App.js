@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Pages/Home.jsx';
-import Navbar from './Pages/Navbar/Navbar.jsx'
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Footer from './Components/Footer/Footer.jsx';
 import LoginPage from './LoginPage/LoginPage.jsx';
 import AdminPanel from './AdminPanel/AdminPanel.jsx'
 import WorkAdmin from './AdminPanel/Work-Admin.jsx'
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/Clients" element={<ClientAdmin />} />
           <Route exact path="/Testimonials" element={<TestimonialAdmin />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );
