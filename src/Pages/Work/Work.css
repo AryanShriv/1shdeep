@@ -1,6 +1,6 @@
 #work {
     padding-bottom: 0;
-    background-color: #1a202c;
+    background-color: #202020;
 }
 
 .container-fluid {
@@ -20,23 +20,20 @@
 .row-style {
     display: flex;
     text-align: center;
-
     justify-content: center;
 }
 
 .main-title {
-
-
     margin-bottom: 30px;
 }
 
 .main-title h5 {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
 .main-title h2 {
-    font-size: 40px;
+    font-size:2.5rem;
     color: #ffffff;
     margin-top: 0;
 }
@@ -53,11 +50,13 @@
 
 .cbp-filter-item {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 2vw;
     cursor: pointer;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
 }
 
 .cbp-filter-item:hover {
@@ -80,8 +79,8 @@
 }
 
 .cbp-item {
-    width: calc(25% - 30px);
-    margin: 0 15px 30px;
+    width: 25%;
+    /* margin: 0 15px 30px; */
     transition: transform 0.5s ease;
 }
 

@@ -1,195 +1,60 @@
-/* ===================================
-   About
-====================================== */
-.main-title {
-    position: relative;
-    margin-bottom: 6rem;
-    text-align: center;
-}
-
-.main-title h5 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    margin-bottom: 1.1rem;
-    color: #ffffff;
-}
-
-.main-title h2 {
-    font-size: 28px;
-
-    font-weight: 300;
-    color: #ffffff;
-    line-height: 1.2;
-    max-width: 650px;
-    margin-bottom: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main-title p {
-    max-width: 720px;
-    margin: 0 auto;
-}
-
-.main-title.style-two h5 {
-    margin-bottom: 1.5rem;
-}
-
-.main-title.style-two h2 {
-    text-transform: initial;
-    font-size: 37px;
-    font-weight: 500;
-    max-width: 720px;
-}
-
-.main-title.style-two p {
-    color: #ffffff;
-    max-width: 720px;
-}
-
-.rare-box {
-    height: 187px;
-    width: 100%;
-    background: #18d26e;
-    position: relative;
-}
-
-.about-img-small {
-    margin-left: 30px;
-    top: -155px;
-    margin-bottom: -153px;
-}
-
-.about ul li {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 16px;
-    display: flex;
-    color: #fff;
-    opacity: 0.8;
-}
-
-.about ul li:before {
-    font-family: "Font Awesome 5 Free";
-    padding-right: 15px;
-    font-weight: 700;
-    content: "\f061";
-    color: #aac0e4;
-}
-
-@keyframes scale {
-    from {
-        transform: translateY(0);
-    }
-
-    to {
-        transform: translateY(-10px);
-    }
-}
-
-.about:before {
-    content: url(../../Assets/About/about-circle.png);
-    position: absolute;
-    right: -10px;
-    top: 200px;
-    animation: scale 0.6s alternate infinite linear both;
-}
-
-/* about 3 boxes */
-.about-box {
-    transition: 0.5s linear;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 40px;
-    max-width: 350px;
-}
-
-.about-box i {
-    font-size: 30px;
-    position: relative;
-}
-
-.about-box:hover {
-    transform: translate(0, -13px);
-    transition: 0.5s linear;
-}
-
-/* about.css */
-
 .about {
-    background-color: #191818;
-
-    padding: 60px 0;
+  background-color: #000;
+  min-height: 100vh;
+  padding: 15vh 0;
 }
 
-.main-title h2 {
-    font-size: 28px;
-    color: #333;
+.aboutContainer {
+  width: 74%;
 }
 
-.paragraph {
-    font-size: 16px;
-    color: #666;
+.aboutContainer .about-card {
+  background: #fff;
+  padding: 10%;
+  border-radius: 10px;
+  height: min-content;
 }
 
-.feature-item {
-    margin-bottom: 20px;
+.about-graphics {
+  margin: 2vw 4vw 2vw 0;
 }
 
-.feature-item i {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #f50057;
+.about-card .card-icon {
+  font-size: 5rem;
+  color: #fff;
+  padding: 10px;
+  width: 3.5vw;
+  background-color: #35ab39;
+  border-radius: 100%;
 }
 
-.feature-item h5 {
-    font-size: 18px;
-    color: #333;
+.about-card .aboutHeading p {
+  margin-top: 3vh;
+  font-size: 1.2rem;
+  color: #111010;
+  font-weight: 600!important;
+  margin-bottom: 1vh;
+  line-height: 1.4;
 }
 
-
-
-
-
-/* devloper's custom classes */
-
-.flex-box {
-
-
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    flex-direction: row-reverse;
+.about-content {
+  margin: 2vw;
 }
 
-.content {
-    width: 50%;
-
-
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
 }
 
-.content h2 {
-    padding-left: 30px;
-    padding-left: 30px;
-
+.about h2 span {
+  color: #18d26e;
 }
 
-.content p {
-    padding-left: 130px;
-    padding-right: 130px;
-    text-align: justify;
-}
-
-.card-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-direction: row-reverse;
-
-}
-
-.cards {
-    padding: 50px;
-    width: 200px;
-    border-radius: 10px;
-    background-color: white;
+.about p {
+  font-size: 1rem;
+  color: #808080;
+  line-height: 1.5;
+  margin-bottom: 5vh;
 }

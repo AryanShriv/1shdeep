@@ -1,0 +1,15 @@
+.about{
+    min-height: 100vh;
+    background-color: #202020;
+}
+
+.about h2{
+    color: #fff;
+    font-weight: 100;
+}
+.about .aboutText{
+    font-size: 1.2rem;
+    font-weight: 500!important;
+    color: white;
+    margin-bottom: 15vh;
+}
