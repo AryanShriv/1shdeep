@@ -1,5 +1,5 @@
 .about {
-  background-color: #000;
+  background-color: black ;
   min-height: 100vh;
   padding: 15vh 0;
 }
@@ -8,18 +8,17 @@
   width: 74%;
 }
 
-.aboutContainer .about-card {
-  background: #fff;
-  padding: 10%;
-  border-radius: 10px;
-  height: min-content;
-}
-
 .about-graphics {
   margin: 2vw 4vw 2vw 0;
 }
 
-.about-card .card-icon {
+.about-card {
+  background: #fff;
+  border-radius: 10px;
+  height: min-content;
+}
+
+.card-icon {
   font-size: 5rem;
   color: #fff;
   padding: 10px;
@@ -29,23 +28,15 @@
 }
 
 .about-card .aboutHeading p {
-  margin-top: 3vh;
   font-size: 1.2rem;
-  color: #111010;
-  font-weight: 600!important;
+  font-weight: 600 !important;
   margin-bottom: 1vh;
   line-height: 1.4;
 }
 
-.about-content {
-  margin: 2vw;
-}
-
 .about h2 {
   font-size: 2.5rem;
-  font-weight: 300;
   line-height: 1.2;
-  color: #fff;
 }
 
 .about h2 span {
@@ -56,5 +47,4 @@
   font-size: 1rem;
   color: #808080;
   line-height: 1.5;
-  margin-bottom: 5vh;
 }

@@ -15,13 +15,13 @@ import client12 from "../../Assets/Clients/12.png";
 import circleImg from '../../Assets/Clients/team-circle.png'
 const Clients = () => {
   return (
-    <div className="about container relative">
-      <img src={circleImg} className=" absolute top-36"/>
+    <div className="client container relative pt-24 pb-8">
+      <img src={circleImg} className="circleImg absolute top-36"/>
 
       <h2 className="text-center font-primary font-thin">
         Our <span>Clientele</span>
       </h2>
-      <p className="aboutText text-center ">
+      <p className="clientText text-center ">
         More than 100 clients have trusted us…
       </p>
 
@@ -48,7 +48,7 @@ const Clients = () => {
         </div>
       </div>
 
-      <p className="aboutText mt-8 text-center w-3/4 relative left-2/4 -translate-x-2/4 ">
+      <p className="clientText mt-6 text-center w-3/4 relative left-2/4 -translate-x-2/4 ">
         We are not your advertisers next door, we are a team of creative
         thinkers who thrive on innovation. We just don’t take projects, we
         collaborate. We don’t just believe in serving our clients, we believe in
