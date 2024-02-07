@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <p className="text footerContent">
+      <p className="font-secondry" id="footerContent">
         © 2023 1shdeep Creatives. Made with love by Agile
       </p>
     </div>
