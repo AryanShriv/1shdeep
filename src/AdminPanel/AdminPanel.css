@@ -113,69 +113,57 @@
     height: 100vh;
 }
 
-.Clintele {
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    gap: 5px;
-    background-color: rgba(0, 110, 255, 0.041);
-}
-
-.clients-header {
-    flex: 1;
+.input {
+    color: #fff;
+    font-size: 0.9rem;
+    background-color: transparent;
     width: 100%;
-    border: 2px dashed royalblue;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.clients-header svg {
-    height: 100px;
-}
-
-.clients-header p {
-    text-align: center;
-    color: black;
-}
-
-.clients-footer {
-    background-color: rgba(0, 110, 255, 0.075);
-    width: 100%;
-    height: 40px;
-    padding: 8px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: black;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
     border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid gray;
+    border-radius: 10px;
 }
 
-.clients-footer svg {
-    height: 130%;
-    fill: royalblue;
-    background-color: rgba(70, 66, 66, 0.103);
-    border-radius: 50%;
-    padding: 2px;
-    cursor: pointer;
-    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+.input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
-.clients-footer p {
-    flex: 1;
-    text-align: center;
+.input:focus {
+    outline: none;
 }
 
-#file {
-    display: none;
+.input:focus+.input-border {
+    width: 100%;
+}
+
+.form-control {
+    position: relative;
+    --width-of-input: 300px;
+}
+
+.input-alt {
+    font-size: 1.2rem;
+    padding-inline: 1em;
+    padding-block: 0.8em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-border-alt {
+    height: 3px;
+    background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #47C9FF 100%);
+    transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);
+}
+
+.input-alt:focus+.input-border-alt {
+    width: 100%;
 }

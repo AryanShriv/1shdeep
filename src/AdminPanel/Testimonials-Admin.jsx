@@ -5,7 +5,7 @@ const TestimonialsAdmin = () => {
     <div className="flex flex-col items-center justify-center h-screen dark">
       <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-bold text-gray-200 mb-4">
-          Add Something new
+          Add Something New
         </h2>
 
         <form className="flex flex-col">
@@ -19,7 +19,7 @@ const TestimonialsAdmin = () => {
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="textarea"
           />
-          <input
+          <textarea
             placeholder="Logo"
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="file"

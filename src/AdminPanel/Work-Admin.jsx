@@ -9,8 +9,8 @@ const AdminPanel = () => {
         </h2>
 
         <form className="flex flex-col">
-          <input
-            placeholder="Video"
+          <textarea
+            placeholder="Video - Head-onDisplay"
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="file"
           />
@@ -24,13 +24,28 @@ const AdminPanel = () => {
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="textarea"
           />
-          <input
-            placeholder="Video"
+          <textarea
+            placeholder="Video - To the side"
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="file"
           />
-          <input
-            placeholder="Video"
+          <textarea
+            placeholder="Video-Works"
+            className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+            type="file"
+          />
+          <textarea
+            placeholder="Video-Works"
+            className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+            type="file"
+          />
+          <textarea
+            placeholder="Video-Works"
+            className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+            type="file"
+          />
+          <textarea
+            placeholder="Video-Works "
             className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
             type="file"
           />
