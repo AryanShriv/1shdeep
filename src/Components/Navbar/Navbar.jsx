@@ -1,5 +1,5 @@
 import React from "react";
-import './Navbar.css'
+import "./Navbar.css";
 import Logo from "../../Assets/logo/WHITE 1S.png";
 
 const Navbar = () => {
@@ -32,17 +32,12 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button
+            className="contact cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-white-600 
+            hover:text-white border-2 border-white-600
+            hover:bg-green-600 transition ease-in-out delay-150  hover:bg-green-600 duration-300  focus:bg-transparent"
+          >
             Contact Us
-          </button> */}
-
-          <button class="relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold">
-            <div class="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
-            <div class="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
-            <div class="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-            <div class="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
-            <div class="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
-            <p class="z-10">Contact Us</p>
           </button>
         </div>
       </div>

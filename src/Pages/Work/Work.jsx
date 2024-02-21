@@ -1,5 +1,6 @@
 import React from "react";
 import "./Work.css";
+import { Link } from "react-router-dom";
 import img1 from "../../Assets/Cover images/01.jpg";
 import img2 from "../../Assets/Cover images/02.jpg";
 import img3 from "../../Assets/Cover images/03.jpg";
@@ -55,23 +56,25 @@ const Work = () => {
         {/* List End */}
 
         {/* Card */}
-
         <div className="flex mt-1 flex-wrap">
           {/* portfolioCard */}
-          <div className="portfolioCard w-1/4 relative">
-            <img className="portfolioImg w-full" src={img1} />
-            <div className="onHover absolute top-0">
-              <div className="textContainer m-4">
-                <h5 className="font-primary w-full text-white ml-4">
-                  Earthern Soil
-                </h5>
+            <div className="portfolioCard w-1/4 relative">
+          <Link to="/Projects">
+              <img className="portfolioImg w-full" src={img1} />
+              <div className="onHover absolute top-0">
+                <div className="textContainer m-4">
+                  <h5 className="font-primary w-full text-white ml-4">
+                    Earthern Soil
+                  </h5>
+                </div>
               </div>
+          </Link>
             </div>
-          </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img2} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -80,22 +83,26 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img3} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">Realme</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img4} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -104,22 +111,26 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img5} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">Oneplus</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img6} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -128,22 +139,26 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img7} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">Samsung</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img8} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -152,11 +167,13 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img9} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -165,33 +182,39 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img10} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">Vietnam</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img11} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">IQOO</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img12} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -200,11 +223,13 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img13} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -213,22 +238,26 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img14} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
                 <h5 className="font-primary w-full text-white ml-4">Bonkers</h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
 
           {/* portfolioCard */}
           <div className="portfolioCard w-1/4 relative">
+             <Link to="/Projects">
             <img className="portfolioImg w-full" src={img15} />
             <div className="onHover absolute top-0">
               <div className="textContainer m-4">
@@ -237,6 +266,7 @@ const Work = () => {
                 </h5>
               </div>
             </div>
+            </Link>
           </div>
           {/* portfolioCard End */}
         </div>

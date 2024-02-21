@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Pages/Home.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Footer from './Components/Footer/Footer.jsx';
+import Projects from './Components/Projects/Projects.jsx'
 import LoginPage from './LoginPage/LoginPage.jsx';
 import AdminPanel from './AdminPanel/AdminPanel.jsx'
 import WorkAdmin from './AdminPanel/Work-Admin.jsx'
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Login" element={<LoginPage />} />
           <Route exact path="/AdminPanel" element={<AdminPanel />} />
+          <Route exact path="/Projects" element={<Projects />} />
           <Route exact path="/Work" element={<WorkAdmin />} />
           <Route exact path="/Clients" element={<ClientAdmin />} />
           <Route exact path="/Testimonials" element={<TestimonialAdmin />} />
